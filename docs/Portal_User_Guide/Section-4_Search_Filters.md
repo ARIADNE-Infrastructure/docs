@@ -6,9 +6,9 @@ description: Section 4 of the ARIADNE Portal Guide on how to use the Catalogue -
 
 # Search Filters
 
-In addition to the What, Where and When tools, there are several filters that each operate on a specific field in the metadata that can be used to refine the returned search results. There are also the Advanced filters, the And and Or operators which can be applied to the selected filters.
+In addition to the What, Where and When tools, there are several filters that each operate on a specific field in the metadata that can be used to refine the returned search results. For each of the filters shown below, one or more options can be selected. The default operator for a multiple selection within a filter is "OR" which will increase the number of resources found. When more than one filter is selected, the "AND" operator is applied. For example, in the Resource Type, selecting the Artefact and Coin options = Artefact OR Coin. Similarly, in the Country filter, the England and Scotland options = England OR Scotland. The combination of the two filters will return results for Artefacts or coins located in England or Scotland. 
 
-![Search filters](../assets/56-Filters_all.png) 
+![Search filters](../assets/56-filters_all_V2.0.png) 
 
 The search results will automatically populate the filters with all the matching terms from the records found. For the Resource Type, Publisher and Country, the number of term matches will be the same as the number of records. For the Getty AAT subject, Original subject and Dating, the number of matching terms in these filters will exceed the total number of records since these will also include all the other terms found in these fields. 
 Using the ‘Clear All Filters’ option (just below the text entry box) will revert the search results to the whole Catalogue, populating the filters will all the possible matching terms.
