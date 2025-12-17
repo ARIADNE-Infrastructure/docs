@@ -6,11 +6,11 @@ description: Section 4 of the ARIADNE Portal Guide on how to use the Catalogue -
 
 # Search Filters
 
-In addition to the What, Where and When tools, there are several filters that each operate on a specific field in the metadata that can be used to refine the returned search results. For each of the filters shown below, one or more options can be selected. The default operator for a multiple selection within a filter is "OR" which will increase the number of resources found. When more than one filter is selected, the "AND" operator is applied. For example, in the Resource Type, selecting the Artefact and Coin options = Artefact OR Coin. Similarly, in the Country filter, the England and Scotland options = England OR Scotland. The combination of the two filters will return results for Artefacts or coins located in England or Scotland. 
+In addition to the What, Where and When tools, there are several filters that each operate on a specific field in the metadata that can be used to refine the returned search results. For each of the filters shown below, one or more options can be selected. The default operator for a multiple selection within a filter is "OR" which will increase the number of resources found as the selection of options is increased. When more than one filter is selected, the "AND" operator is applied between the filters. For example, in the Resource Type, selecting both the Artefact and Coin options = Artefact OR Coin. Similarly, in the Country filter, the England and Scotland options = England OR Scotland. The combination of the two filters will return results for Artefacts or coins located in England or Scotland. 
 
 ![Search filters](../assets/56-filters_all_V2.0.png) 
 
-The search results will automatically populate the filters with all the matching terms from the records found. For the Resource Type, Publisher and Country, the number of term matches will be the same as the number of records. For the Getty AAT subject, Original subject and Dating, the number of matching terms in these filters will exceed the total number of records since these will also include all the other terms found in these fields. 
+The search results will automatically populate the filters with all the matching terms from the records found. For the Resource Type, Publisher and Contributor, the number of term matches will be the same as the number of records. For the Getty AAT subject, Original subject and Dating, the number of matching terms in these filters will exceed the total number of records since these will also include all the other terms found in these fields. 
 Using the ‘Clear All Filters’ option (just below the text entry box) will revert the search results to the whole Catalogue, populating the filters will all the possible matching terms.
 
 ## Text entry
@@ -42,7 +42,7 @@ The use of this filter is highly recommended to obtain accurate, meaningful resu
 
 The Getty AAT is hierarchical in structure and when a (single) higher level term is specified in this filter, the search results will also include all the sub-categories. So, the general term “weapons” will also include resources with terms such as “knives”, “spears” and “daggers” as these are sub-categories of “weapons”.
 
-When multiple terms are used as a filter, logical ‘AND’ is applied so only resources matching all the terms will be returned in the search results. Hierarchical sub-categories are not used with multiple terms, only the term specified. Hence, if a search was made for “Weapons”  and “Warships”, there are no results but if “Cannons (artillery)” is used instead of "Weapons", then there are results as both the exact terms have been used for the matching resources. 
+When multiple terms are used within the filter, logical ‘OR’ is applied so resources matching one or more of the terms will be returned in the search results. 
 
 When a set of search results is displayed, the Getty AAT filter will only show the first 20 terms found within the current set of resources, starting with the most numerous matches ordered by size. More terms can be displayed by clicking on the “Get 20 more results..” box at the end of the displayed list which extends the list with a scroll bar. This can be repeated until all the matching terms may be viewed. 
 
